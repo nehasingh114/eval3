@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purchases</title>
+  </head>
+  <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    }
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    #purchased_vouchers{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+  
+}
+  </style>
+  <body>
+    
+  <div>
+    <div id="m_navbar">
+     <a href="./index.html"> <h3>Buy Voucher</h3></a>
+      <h3 id="m_wallet_balance"></h3>
+      <a href="./voucher.html">Purchase Voucher</a>
+      
+    </div>
+
+    <div id="purchased_vouchers"></div>
+
+  </div>
+    <!-- Wallet balence id:- "wallet_balance" (only number). -->
+    <!-- - All the purchased voucher will be appended in div with id as "purchased_vouchers".
+  - The remaining balance will show on the page inside h3 tag with id as "balance" -->
+  </body>
+</html>
+
+
